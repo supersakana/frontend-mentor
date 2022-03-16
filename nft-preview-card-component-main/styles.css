@@ -25,10 +25,12 @@ body {
 
 h3 {
   color: var(--white);
+  margin-top: 10px;
 }
 p {
   color: var(--soft-blue);
   font-weight: 300;
+  margin: 10px 0;
 }
 
 .main {
@@ -46,11 +48,18 @@ p {
   width: 360px;
   padding: 25px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .nft-image {
   width: 100%;
   border-radius: 10px;
+}
+
+.eth-icon,
+.clock-icon {
+  flex: none;
 }
 
 .avatar {
@@ -62,6 +71,11 @@ p {
 .values {
   display: flex;
   /* justify-content: space-between; */
+}
+
+.creation-container {
+  display: flex;
+  align-items: center;
 }
 
 .attribution {
